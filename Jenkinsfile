@@ -6,16 +6,21 @@ pipeline
   {
   stage ("Build")
     {
-      echo 'Running build automation'
+      steps {
+            echo 'Running build automation'
+           }
     }
      stage ("Test")
     {
-      echo 'Running Test automation'
+      steps {
+            echo 'Running Test automation'
+           }
     }
      stage ("Deploy")
     {
-      echo 'Running Deploy automation'
-    }
+      steps {
+            echo 'Running Deploy automation'
+           }
   }
     
   
