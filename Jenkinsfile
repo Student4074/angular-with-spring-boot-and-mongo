@@ -4,15 +4,15 @@ pipeline
     
   stages
   {
-  stage (Build)
+  stage ("Build")
     {
       echo 'Running build automation'
     }
-     stage (Test)
+     stage ("Test")
     {
       echo 'Running Test automation'
     }
-     stage (Deploy)
+     stage ("Deploy")
     {
       echo 'Running Deploy automation'
     }
