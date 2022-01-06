@@ -21,6 +21,7 @@ pipeline
       steps {
             echo 'Running Deploy automation'
            }
+    }
   }
     
   
