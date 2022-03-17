@@ -22,6 +22,12 @@ pipeline
             echo 'Running Deploy automation'
            }
     }
+    stage ("package")
+    {
+      steps {
+            echo 'Generating artifact automation'
+           }
+    }
   }
     
   
